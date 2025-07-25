@@ -15,8 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('title', 500);
             $table->string('slug', 500);
-            $table->string('Numero', 500);
-            $table->string('Adress', 500);
             $table->timestamps();
         });
     }

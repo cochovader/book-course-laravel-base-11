@@ -21,6 +21,6 @@
         <li>{{$item}}
     @endforeach
     </ul>
-   <!-- <h4><?php echo $name, $age?></h4> -->
+   {{-- <h4><?php echo $name, $age?> </h4> --}}
 </body>
 </html>
