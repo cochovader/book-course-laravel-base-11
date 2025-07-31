@@ -11,6 +11,11 @@
     {{-- @if (session('status'))
         {{session('status')}}
     @endif --}}    
+
+    @if (session('status'))
+        {{session('status')}}
+    @endif
+
     @yield('content') 
 
     <section>
